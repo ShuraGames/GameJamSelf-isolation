@@ -40,7 +40,7 @@ public class TimeTick : MonoBehaviour
     {
         while(true)
         {
-            yield return new WaitForSeconds(.11f);
+            yield return new WaitForSeconds(.1f);
 
             if(!isPaused)
             {
